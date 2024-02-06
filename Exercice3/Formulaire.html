@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <h1><center>Inscription en Licence</center></h1>
+    <form name="fiche" method="post" action="">
+        <fieldset width="500px;"><legend><b>Information personneles</b></legend>
+           <center>
+                <label for="nom">Votre nom : </label> <input type="text" id="nom" name="nom" placeholder="Exemple Mahamadou Awal "><br>
+                <br><label for="prénom">Votre prénom : </label> <input type="text" id="prénom" name="prénom" placeholder="Exemple Ahmad Moctar"><br>
+                <br><label for="age">Votre age : </label> <input type="number" id="age" name="age" placeholder="Exemple 20" required><br>
+                <br><label for="adresse">Votre adresse : </label> <textarea name="votre adresse" cols="30" rows="10" placeholder="rue gommbé, yambassa, km5, Bangui"></textarea><br>
+                <br><label for="mot de passe">Mot de passe : </label> <input type="text" id="Mot de passe" name="Mot de passe" placeholder="Exemple votre mot de passe" required><br>
+                <br><label for="mot de passe">Retaper votre mot de passe : </label> <input type="text" id="Retaper votre mot de passe" name="Retaper votre mot de passe" required><br>
+                <br><label for="email">Adresse e-mail :</label> <input type="email" id="email" name="email" placeholder="Exemple@gmail.com"><br>
+                <br><label for="urlSite">URL du site :</label> <input type="url" id="urlSite" name="urlSite" placeholder="Exemple http//:zerty.cen"><br>
+                <br> <label for="dateNaissance">Date de naissance :</label><input type="date" id="dateNaissance" name="dateNaissance" required>
+           </center>
+        </fieldset>
+
+        <fieldset width="500px;"><legend><b>Gestion des groupes et des options</b></legend>
+            <center>
+                <label for="">Votre groupe : </label> <input type="radio" name="Groupe1" > Groupe1 <input type="radio" name="Groupe2" > Groupe2 <input type="radio" name="Groupe3" > Groupe3 <br>
+                <label for="">Numéro de carte d'étudiant : </label> <input type="number" placeholder="Numéro de carte d'étudiant?"><br>
+                <label for="">Choisissez les options que vous desiriez : </label> <select>
+                    <option value="">Matière</option>
+                    <option value="">J2ee</option>
+                    <option value="">Android</option>
+                    <option value="">.Net</option>
+                    <option value="">HTML5</option>
+                    <option value="">Flex</option>
+                </select>
+            </center>
+        </fieldset>
+        <center><input type="submit" value="Valider">  <input type="reset" value="réinitialiser"></center>
+    </form>
+</body>
+</html>
