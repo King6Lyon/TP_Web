@@ -1,0 +1,15 @@
+*{
+    background-color: black;
+    color: #fff;
+}
+
+p{
+    padding-left: 104px;
+}
+
+strong{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid ;
+    border-color: rgb(51, 213, 51);
+}

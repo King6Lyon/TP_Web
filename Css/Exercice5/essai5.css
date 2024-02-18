@@ -1,0 +1,22 @@
+#essai
+{
+ border: 4px solid red;
+}
+
+p{
+    background-image: url(../image/blue-box.png);
+    background-repeat: repeat-x, repeat-y, no-repeat;
+}
+#essai1{
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 100px;
+    background-image: url(../image/blue-box.png);
+    padding: 10px 15px 10px 0px; /* Par exemple */
+    color: white;
+    text-align: center; /* Pour centrer horizontalement */
+    text-shadow: 2px 2px 2px #aaa; /* Pour ajouter une ombre */
+    font-size: 1.8em;
+}
+
+  

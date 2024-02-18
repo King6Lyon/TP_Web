@@ -1,0 +1,13 @@
+.bleu{
+    color: blue;
+}
+
+.vert{
+    color: green;
+}
+
+#le-gagnant{
+    border: 2px solid;
+    border-color: red;
+    width: 2em;
+}

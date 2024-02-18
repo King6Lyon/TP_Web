@@ -1,0 +1,17 @@
+td{ 
+    border: 1px solid black; 
+}
+
+table { 
+    border-collapse: collapse; 
+    }
+
+.bleu{
+    background-color: rgb(91, 91, 219);
+    color: aliceblue;
+}
+    
+.vert{
+    background-color: rgb(110, 236, 110);
+    color: aliceblue;
+}
