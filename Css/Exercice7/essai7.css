@@ -1,0 +1,22 @@
+*{
+    margin: 15px;
+    padding: 0
+    ;
+}
+
+#contenu {
+    width: 30em;
+  }
+
+.illustration{
+    float: right;
+}
+  
+.encart{
+    float: left;
+    border: 1px solid black;
+    width: 8em;
+    font-style: italic;
+    color: blue;
+
+}
